@@ -1,0 +1,552 @@
+body{
+    margin: 0;
+}
+.navbar{
+    width: 100%;
+    height: 11%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.logo img{
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    padding-left: 20px;
+}
+.menu{
+    width: 170px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(54, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu a:hover{
+    color: palevioletred;
+}
+.page1{
+    display: inline-flex;
+    width: 100%;
+    height: 80%;
+}
+.desnastrana1{
+    width: 60%;
+    height: 100%;
+    background-color: aquamarine;
+}
+.desnastrana1 img{
+    width: 100%;
+    height: 100%;
+}
+.levastrana1{
+    width: 30%;
+    height: 84%;
+    margin-left: 10%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 47px;
+    padding-bottom: 50px;
+}
+.line{
+    width: 20%;
+    position: relative;
+    top: 30px;
+}
+.naslov h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: rgb(228, 74, 74);
+}
+.btn1{
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
+.btn1 button{
+    width: 240px;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(228, 74, 74);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.btn1 button:hover{
+    border: 1px solid rgb(228, 74, 74);
+    color: rgb(228, 74, 74);
+    background-color: white;
+    transition: 1s;
+}
+.text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.imageby{
+    color: rgb(71, 70, 70);
+    margin-top: 40px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#amc1{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(228, 74, 74);
+}
+.page2{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(228, 74, 74);
+}
+.page2naslov{
+    padding-top: 60px;
+    justify-content: center;
+    display: flex;
+    height: 100px;
+    
+}
+.page2naslov h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+}
+.page2text{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+.page2text h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: white;
+}
+.page2kartice{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+}
+#ico1{ 
+    /* ovo da se popravi  */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+    transform: translateY(-35px);
+    border: 1px solid rgb(247, 239, 239);
+}
+#ico2{ 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+    transform: translateY(-35px);
+    border: 1px solid rgb(247, 239, 239);
+}
+#ico3{ 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+    transform: translateY(-35px);
+    background-color: white;
+    border: 1px solid rgb(247, 239, 239);
+}
+#cards{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 50px;
+}
+#cards #naslov{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: rgb(228, 74, 74);
+}
+#cards #pppp{
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine */
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: rgb(27, 14, 14);
+}
+#buttoni{
+    width: 104px;
+    height: 48px;
+    color: rgb(36, 33, 33);
+    border: 2px solid rgb(228, 74, 74);
+    background: white;
+    border-radius: 2px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+#buttoni:hover{
+    background-color:rgb(228, 74, 74);
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#cards:hover{
+    transform: translateY(-20px);
+    transition: 1s;
+}
+.page3{
+    width: 100%;
+    height: 100%;
+    margin-top:79px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    background-color: gainsboro;
+}
+.page3unutra{
+    width: 1056px;
+    height: 720px;
+}
+.page3levastrana{
+    width: 40%;
+    height: 100%;
+}
+.page3levastrana img{
+    width: 100%;
+    height: 100%;
+}
+.page3desnastrana{
+    width: 60%;
+    height: 100%;
+}
+.page3unutra{
+    display: inline-flex;
+}
+.page3desnastrana{
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.page3desnastrana h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: arial;
+    color: rgb(228, 74, 74);
+}
+.page3desnastrana h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: lighter;
+}
+.page3desnastrana p{
+    color:rgb(54, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    letter-spacing: 1px;
+}
+.linija{
+    margin-top:10px;
+}
+.lista1page3{
+    display: inline-flex;
+    margin-top: 30px;
+}
+.lista1page3 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color:rgb(252, 229, 229);
+    margin-top: 20px;
+}
+.lista1page3 p{
+    color: rgb(54, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.lista2page3{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.lista2page3 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color:rgb(252, 229, 229);
+    margin-top: 20px;
+}
+.lista2page3 p{
+    color: rgb(54, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+.page4{
+    width: 100%;
+    height: auto;
+    background-color: gainsboro;
+    transform: translateY(-41px);
+    padding-top: 60px;
+    display:block;
+}
+.page4 h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(228, 74, 74);
+}
+.page4 h3{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(54, 53, 53);
+    font-weight: 400;
+    font-size: 25px;
+}
+.container1{
+    width: 961px;
+    height: 159px;
+    display: inline-flex;
+    background-color: rgb(238, 236, 236);
+    margin-left:20%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.container2{
+    width: 961px;
+    height: 159px;
+    display: inline-flex;
+    background-color: white;
+    margin-left: 20%;
+    margin-bottom: 10px;
+}
+.container3{
+    width: 961px;
+    height: 159px;
+    display: inline-flex;
+    background-color:rgb(228, 74, 74);
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+.container1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.container2:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.container3:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+#broj{
+    width: 200px;
+    height: 100%;
+    font-size: 60px;
+    transform: translateY(-50px);
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228, 74, 74);
+}
+#broj3{
+    width: 200px;
+    height: 100%;
+    font-size: 60px;
+    transform: translateY(-50px);
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#tekstpage4{
+    color: rgb(54, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    line-height: 1.8;
+    margin-top: 30px;
+}
+#tekst2page4{
+    color:rgb(54, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 40px;
+    padding-left: 10px;
+    line-height: 1.8;
+    font-weight: 400;
+    margin-top: 30px;
+}
+#tekst3page4{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 40px;
+    padding-left: 10px;
+    line-height: 1.8;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.page5{
+    width: 100%;
+    height: 100%;
+}
+.page5unutra{
+    display: inline-flex;
+    height: 687px;
+    width: 70%;
+    margin-left: 15%;
+}
+.page5l{
+    width: 53%;
+    height: 687px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.page5l img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color:white;
+    border: 1px solid rgb(247, 239, 239);
+    padding: 10px;
+    margin-top: 100px;
+}
+.page5l h1{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: rgb(71, 70, 70);
+}
+.page5l p{
+    color: rgb(54, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 1.8;
+    margin-top: 10px;
+}
+.jedandvatri p{
+    font-weight: bold;
+}
+.page5l button{
+    background-color: #fff;
+    color: rgb(36, 33, 33);
+    border: 2px solid rgb(228, 74, 74);
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+}
+.page5l button:hover{
+    background-color: rgb(228, 74, 74);
+    border: none;
+    color: white;
+    transition: 0.8s;
+}
+.page5d{
+    width: 47%;
+    height: 687px;
+}
+.page5d img{
+    width: 100%;
+    height: 100%;
+}
+.page6{
+    width: 70%;
+    height: 90%;
+    padding-left:15%;
+    padding-right: 15%;
+    display: inline-flex;
+    justify-content: center;
+}
+.page6l{
+    width: 45%;
+    height: 80%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-right: 3%;
+}
+.page6d{
+    width: 45%;
+    height: 80%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    margin-left:3%;
+}
+.page6l h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228, 74, 74);
+    line-height:1.5;
+}
+.page6l p{
+    color: rgb(54, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8;
+    font-size: 20px;
+}
+.page6l img{
+    width: 30px;
+    height: 30px;
+    padding-top: 25px;
+}
+.wcp{
+    display: inline-flex;
+}
+.page6l h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.page6 h4:hover{
+    color: rgb(228, 74, 74) ;
+    transform: scale(1.1);
+}
+.page6d h6{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:100;
+    font-size: 60px;
+    color: rgb(228, 74, 74);
+    line-height: 1.3;
+    transform: translateY(-100px);
+}
+.page6 h6:hover{
+    transform: rotate(25deg);
+    transition: 2s;
+}
+footer{
+    background-color: rgb(218, 87, 87);
+    height: 250px;
+}
+.horizontala3{
+    transform: translateY(20px);
+}
+footer img{
+    margin-left: 42%;
+}
+footer h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size:50px;
+    margin-left: 40%;
+    padding-top: 50px;
+    letter-spacing: 4px;
+} 
